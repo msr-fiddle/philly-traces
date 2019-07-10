@@ -1,6 +1,6 @@
 ## Overview
 
-This repository contains a representative subset of the first-party DNN training workloads on Microsoft's internal Philly clusters. The trace is a sanitized subset of the workload described in ["Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads"](https://arxiv.org/abs/1901.05758) in ATC’19. We include in this repository a [jupyter notebook](https://github.com/msr-fiddle/philly-traces-staging/blob/master/analysis/Philly%20Trace%20Analysis.ipynb) that highlights the main characteristics of the traces and shows how to parse them (a huge thank you to [Keshav Santhanam](https://github.com/santhnm2) for putting this together).
+This repository contains a representative subset of the first-party DNN training workloads on Microsoft's internal Philly clusters. The trace is a sanitized subset of the workload described in ["Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads"](https://arxiv.org/abs/1901.05758) in ATC’19. We include in this repository a [jupyter notebook](https://github.com/msr-fiddle/philly-traces/blob/master/analysis/Philly%20Trace%20Analysis.ipynb) that highlights the main characteristics of the traces and shows how to parse them (a huge thank you to [Keshav Santhanam](https://github.com/santhnm2) for putting this together).
 
 We provide the trace as is.  If you do use this trace in your research, please make sure to cite our ATC’19 paper (mentioned above).
 
