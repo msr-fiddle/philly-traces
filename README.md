@@ -26,39 +26,34 @@ successful scheduling attempt.
 ```
 {
     "status": "Pass",
-    "vc": "2869ce",
-    "jobid": "application_1506638472019_10238",
+    "vc": "ee9e8c",
+    "jobid": "application_1506638472019_14199",
     "attempts": [
         {
-            "start_time": "2017-10-05 14:50:06",
-            "end_time": "2017-10-08 21:08:07",
+            "start_time": "2017-10-07 01:12:09",
+            "end_time": "2017-10-07 01:13:23",
             "detail": [
                 {
-                    "ip": "m193",
+                    "ip": "m47",
                     "gpus": [
                         "gpu0",
-                        "gpu4",
-                        "gpu5",
-                        "gpu7"
-                    ]
-                },
-                {
-                    "ip": "m287",
-                    "gpus": [
                         "gpu1",
                         "gpu2",
                         "gpu3",
-                        "gpu4"
+                        "gpu4",
+                        "gpu5",
+                        "gpu6",
+                        "gpu7"
                     ]
                 }
             ]
         },
         {
-            "start_time": "2017-10-08 09:24:12",
-            "end_time": "2017-10-08 21:08:07",
+            "start_time": "2017-10-07 01:13:30",
+            "end_time": "2017-10-09 06:53:12",
             "detail": [
                 {
-                    "ip": "m56",
+                    "ip": "m412",
                     "gpus": [
                         "gpu0",
                         "gpu1",
@@ -73,10 +68,11 @@ successful scheduling attempt.
             ]
         }
     ],
-    "submitted_time": "2017-10-05 14:49:31",
-    "user": "e4f747"
+    "submitted_time": "2017-10-07 01:11:39",
+    "user": "ce2f4c"
 }
 ```
+
 **List of keys**:
 * `status`: The job's status upon completion. One of `Pass`, `Killed`, or `Failed`.
 * `vc`: The hash of the virtual cluster the job was run in.
